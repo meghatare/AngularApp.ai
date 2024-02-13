@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Login{
+    width: 100%;
+    height: 90vh;
+    font-family: sans-serif;
+    color: #2C3E50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 420px;
+    height: 650px;
+    box-shadow: 0  0 40px 20px rgba(0, 0, 0, 0.10);
+    perspective: 1000px;
+}
+.card-front{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.card h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1977F3;
+}
+.card h6{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.input-box{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #F8F8F8;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    color: #808080;
+    background: rgba(248, 248, 248, 1);
+}
+.call{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgba(128, 128, 128, 0.6);
+
+}
+.lock1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 19px;
+    color: rgba(128, 128, 128, 0.6);
+
+}
+.lock2{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+    color: rgba(128, 128, 128, 0.6);
+
+}
+.eye{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -35px;
+    color: rgba(128, 128, 128, 0.6);
+
+}
+::placeholder{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+
+.submit-btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1977F3;
+    font-size: 20px;
+    font-weight: 700;
+}
+.rw{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.line1{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.line2{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.social{
+    margin-left: 30px;
+}
+.footer{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#fp{
+    color: #1977F3; 
+    font-size: 15px;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+span{
+    color: #1977F3; 
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+

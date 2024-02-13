@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: #1977F3;
+    font-size: 30px;
+    text-align: center;
+}
