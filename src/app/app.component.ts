@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { OtpVerificationComponent } from './otp-verification/otp-verification.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +14,6 @@ import { LoginComponent } from './login/login.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  http = inject(HttpClient)
   title = 'AngularApp.ai';
 }
